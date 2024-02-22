@@ -1,12 +1,36 @@
-/* Basic Reset */
-* {
+/* Navigation Bar Styles */
+nav {
+    background-color: #333; /* Dark background */
+    text-align: center; /* Center the navigation */
+    padding: 10px 0; /* Padding around the nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the font bold */
+}
+
+nav ul li a:hover {
+    color: #ddd; /* Color when hovering over the link */
+}
+
+/* Additional Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
 }
 
 header {
@@ -14,20 +38,6 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
 }
 
 main {
