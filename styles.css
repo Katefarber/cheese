@@ -1,4 +1,9 @@
 /* Navigation Bar Styles */
+<header>
+    <img src="C:\Users\halom\Pictures\Screenshots" alt="Your Banner Image">
+    <!-- Other header content -->
+</header>
+
 nav {
     background-color: #333; /* Dark background */
     text-align: center; /* Center the navigation */
